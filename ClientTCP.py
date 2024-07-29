@@ -19,6 +19,8 @@ TAMANHO_BUFFER = 1024
 cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 cliente.connect((TCP_IP, TCP_PORTA))
 
+print(f"Client disponível na porta {TCP_PORTA} e escutando.....")
+
 def receberMensagens(cliente):
     while True:
         data = cliente.recv(TAMANHO_BUFFER)
