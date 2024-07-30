@@ -1,1 +1,1 @@
-Simples chat em Python que fiz enquanto estudava sobre protocolos da camada de transporte (mais especificamente o protocolo TCP), o programa utiliza o conceito de multithreading para possibilitar comunicação assíncrona entre "Client" e "Server"
+Simples chat em Python que fiz enquanto estudava sobre protocolos da camada de transporte (mais especificamente o protocolo TCP), o programa utiliza o conceito de multithreading para possibilitar comunicação assíncrona entre "Client" e "Server".
